@@ -1,0 +1,14 @@
+student={1:[1,'Devi','Female','MPCs',9.7],2:[2,'Deepu','Male','MPCs',9.8],3:[3,'Ramya','Female','MPCs',9.5]}
+x=int(input('Enter student sno'))
+print('student sno is',student[x][0])
+print('student sname is',student[x][1])
+print('student gender is',student[x][2])
+print('student group is',student[x][3])
+print('student result is',student[x][4])
+output:
+Enter student sno1
+student sno is 1
+student sname is Devi
+student gender is Female
+student group is MPCs
+student result is 9.7
