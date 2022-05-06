@@ -1,0 +1,16 @@
+employee={1:[1,'Raju','physics','27feb2009',25000],2:[2,'Ramu','Maths','09mar2010',28000],3:[3,'Radha','Telugu','12jun2020',20000]}
+x=int(input('Enter employee no'))
+print('employee no is',employee[x][0])
+print('employee name is',employee[x][1])
+print('employee designation is',employee[x][2])
+print('employee date of joining is',employee[x][3])
+print('employee salary is',employee[x][4])
+
+
+output:
+Enter employee no2
+employee no is 2
+employee name is Ramu
+employee designation is Maths
+employee date of joining is 09mar2010
+employee salary is 28000
